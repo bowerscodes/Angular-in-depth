@@ -22,5 +22,22 @@
 
   </mat-radio-group>
 
+  <mat-form-field >
+    <mat-select formControlName="category" placeholder="Select category">
+      <mat-optgroup label="Beginners">
+        <mat-option value="newprogramming">New to programming</mat-option>
+        <mat-option value="newjavascript">New to JavaScript</mat-option>
+        <mat-option value="newangular">New to Angular</mat-option>
+      </mat-optgroup>
+      <mat-option value="intermediate">
+        Intermediate
+      </mat-option>
+      <mat-option value="advanced">
+        Advanced
+      </mat-option>
+      <mat-option>None</mat-option>
+    </mat-select>
+  </mat-form-field>
+
 </div>
 
